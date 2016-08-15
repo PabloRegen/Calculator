@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link href="calculator.css" type="text/css" rel="stylesheet"/> <!-- CSS file link -->
+
+        <!-- Placing audio on head to simplify body since audio controls are not used -->
+        <!-- clicks sound --> 
+        <audio src="audio/calc_pop.mp3" type="audio/mp3"> <!-- all clicks (except =) sound -->
+            <p>Your browser does not support this audio.</p> 
+        </audio>
+        <audio src="audio/calc_cash_register.mp3" type="audio/mp3"> <!-- = click sound -->
+            <p>Your browser does not support this audio.</p>
+        </audio>
+        <!-- end clicks sound -->
+    </head>
+    
+    <body>
+        <!-- calculator -->
+        <div class="calculator">
+
+            <p>calculator</p> <!-- text on calculator -->
+
+            <input type="text" size="40" disabled="disabled" id="display"/> <!-- display -->
+
+            <!-- buttons -->
+            <div class="row">
+                <button class="blue">AC</button>
+                <button class="blue">CE</button>
+                <button>+/-</button>
+                <button>/</button>
+            </div>
+            <div class="row">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>x</button>
+            </div>
+            <div class="row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>-</button>
+            </div>
+            <div class="row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="blue" id="plus">+</button>
+            </div>
+            <div class="row">
+                <button>0</button>
+                <button>.</button>
+                <button>=</button>
+            </div> 
+            <!-- end buttons -->
+
+        </div> 
+        <!-- end calculator -->
+
+        <!-- credits -->
+        <div class="credits">
+  			By <a id="author">Pablo Regen</a> <br /> <br />
+  			Sound Effects by <a href="http://www.freesfx.co.uk" target="_blank" id="linkSound">freeSFX</a>
+		</div>
+        <!-- end credits -->
+
+        <script src="calculator.js"></script> <!-- JavaScript file link -->
+    </body>
+</html>
