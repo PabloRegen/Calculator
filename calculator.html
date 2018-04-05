@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>calculator</title>
-        <link href="calculator.css" type="text/css" rel="stylesheet"/> <!-- CSS file link -->
+        <link href="calculator.css" rel="stylesheet"/> <!-- CSS file link -->
 
         <!-- Placing audio on head to simplify body since audio controls are not used -->
         <!-- clicks sound --> 
@@ -13,6 +13,8 @@
             <p>Your browser does not support this audio.</p>
         </audio>
         <!-- end clicks sound -->
+
+        <script src="calculator.js" defer></script> <!-- JavaScript file link -->
     </head>
     
     <body>
@@ -60,11 +62,9 @@
 
         <!-- credits -->
         <div class="credits">
-  			By <a id="author">Pablo Regen</a> <br /> <br />
+  			By <span id="author">Pablo Regen</span> <br /> <br />
   			Sound Effects by <a href="http://www.freesfx.co.uk" target="_blank" id="linkSound">freeSFX</a>
 		</div>
         <!-- end credits -->
-
-        <script src="calculator.js"></script> <!-- JavaScript file link -->
     </body>
 </html>
