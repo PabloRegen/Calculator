@@ -1,5 +1,4 @@
-(function calculator() {
-
+window.onload = function() {
     var entries = [],                                      // store numbers and math symbols. String type
         temp = '',                                         // store numbers. String type
         total,                                             // numbers type
@@ -130,4 +129,4 @@
         buttons[j].addEventListener('click', buttonClick)  // or: buttons[j].addEventListener('click', function(event) {
     }                                                      //     var val = this.textContent;
                                                            //     ... do the stuff under buttonClick() ... }
-}());
+};
