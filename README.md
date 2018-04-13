@@ -1,5 +1,7 @@
 # Calculator
 
+https://calculator.blogme.space
+
 A simple calculator written in JavaScript, HTML and CSS
 
 ## Technologies
@@ -17,7 +19,3 @@ A simple calculator written in JavaScript, HTML and CSS
 * fit all numbers within the display by changing to exponential notation when needed
 * prevent repeating 0 at the start of the number and more than one . (dot) per number
 * add sound effects
-
-## Usage
-1. Download Zip, unzip and open the newly created directory
-2. Double click on the calculator.html file
